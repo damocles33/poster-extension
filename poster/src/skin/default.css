@@ -1,0 +1,100 @@
+#poster-window {
+   min-width: 450px;
+   overflow: auto;
+}
+
+#posterSidebar {
+   overflow: scroll;
+}
+
+#sidebar {
+   max-width: none !important;
+}
+
+#googleLogin {
+   max-width: 550px;
+}
+
+#googleLogin div {
+   margin-left: 1em;
+}
+
+#googleLogin a:link {
+   color: blue;
+   text-decoration: underline;
+}
+page,window,dialog {
+   font-size: 1em;
+   font-family: Arial, Helvetica, Sans-Serif;
+}
+
+*{
+   -moz-user-select: text
+}
+
+row {
+   -moz-box-align: center;
+}
+
+p.label { 
+   margin: 0pt;
+   padding: 2pt;
+   font-weight: bold;
+}
+
+div.drop-area { 
+   margin: 2pt; 
+   border: 1pt solid gray;
+   min-height: 50px; min-width: 200px;
+}
+
+#response {
+   min-width: 500px;
+   min-height: 550px;
+}
+
+#response #content {
+   font-family: monospace;
+   min-width: 400px;
+   min-height: 300px;
+}
+
+#response grid {
+   margin-left: 0.3em;
+}
+
+#timeout-response {
+   min-width: 35em;
+   min-height: 8em;
+}
+
+#timeout-response #title {
+   margin-top: 1em;
+   text-align: center;
+}
+
+#timeout-response .message {
+   margin-left: 1em;
+}
+
+.small-buttons button {
+   padding: 0pt;
+   font-size: 75%;
+   margin: 0.05em;
+}
+
+#about {
+   min-height: 250px;
+   min-width: 300px;
+   width: 300px;
+}
+
+#response #title {
+   padding: 0.2em;
+   padding-left: 0.5em;
+}
+
+
+#google-login[authstate="auth"] image {
+   border: 2px solid red;
+}
